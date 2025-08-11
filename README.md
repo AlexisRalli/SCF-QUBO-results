@@ -1,4 +1,5 @@
-# HF-QUBO
+# SCF-QUBO-results
+
 Repository containing results for [insert doi] and [arXiv](https://arxiv.org/abs/2506.04223)
 
 The raw data can be found in `data` and the jupyter notebooks in `analysis` generate all the plots in the paper. They also detail how other information can be accessed if required.
