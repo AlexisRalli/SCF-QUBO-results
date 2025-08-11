@@ -1,0 +1,44 @@
+init minao
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /var/folders/cr/lt00fp0j353b4t_4p9h1rww00000gn/T/tmp1upuqe0q
+max_memory 4000 MB (current use 0 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -74.5704279355542
+  HOMO = -0.388980986134328  LUMO = -0.17574079638052
+cycle= 1 E= -74.3062767997262  delta_E= 0.264  |g|= 1.18  |ddm|= 0.982
+
+WARN: HOMO 0.506981542616839 == LUMO 0.506981542616839
+
+cycle= 2 E= -74.4495198393157  delta_E= -0.143  |g|= 1.66  |ddm|= 2.15
+  HOMO = 0.0452936304467592  LUMO = 0.231549690196385
+cycle= 3 E= -74.9497717733394  delta_E= -0.5  |g|= 0.734  |ddm|= 0.787
+  HOMO = 0.0355355398715176  LUMO = 0.198629284383271
+cycle= 4 E= -75.063265753253  delta_E= -0.113  |g|= 0.204  |ddm|= 0.456
+  HOMO = 0.0588331480224466  LUMO = 0.177842734293013
+cycle= 5 E= -75.0730005229882  delta_E= -0.00973  |g|= 0.00234  |ddm|= 0.181
+  HOMO = 0.0594953133899721  LUMO = 0.179969176138917
+cycle= 6 E= -75.0730022643709  delta_E= -1.74e-06  |g|= 0.000229  |ddm|= 0.00296
+  HOMO = 0.0594745073862196  LUMO = 0.179812742569204
+cycle= 7 E= -75.0730022813473  delta_E= -1.7e-08  |g|= 4.41e-05  |ddm|= 0.000292
+  HOMO = 0.0594689452081234  LUMO = 0.179837622016322
+cycle= 8 E= -75.0730022819137  delta_E= -5.66e-10  |g|= 5.22e-06  |ddm|= 4.92e-05
+  HOMO = 0.0594688173515055  LUMO = 0.179836895134507
+Extra cycle  E= -75.0730022819224  delta_E= -8.63e-12  |g|= 1.7e-06  |ddm|= 5.1e-06
+converged SCF energy = -75.0730022819224
+rhf_internal: lowest eigs of H = [-2.41635237e-01  5.20539156e-09  3.26404026e-03]

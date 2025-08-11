@@ -1,0 +1,50 @@
+******** <class 'pyscf.soscf.newton_ah.SecondOrderRHF'> ********
+method = SecondOrderRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 10000
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /var/folders/cr/lt00fp0j353b4t_4p9h1rww00000gn/T/tmp1var24gh
+max_memory 4000 MB (current use 0 MB)
+******** <class 'pyscf.scf.hf.RHF'> Newton solver flags ********
+SCF tol = 1e-09
+conv_tol_grad = None
+max. SCF cycles = 10000
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /var/folders/cr/lt00fp0j353b4t_4p9h1rww00000gn/T/tmp1var24gh
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-12
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 4000 MB (current use 0 MB)
+Set conv_tol_grad to 3.16228e-05
+Initial guess from minao.
+  HOMO = -0.388980986134328  LUMO = -0.17574079638052
+Initial guess E= -74.3062767997262  |g|= 1.17957
+macro= 0  E= -74.5360303280611  delta_E= -0.229754  |g|= 0.0808692  3 KF 10 JK
+macro= 1  E= -74.5440265924929  delta_E= -0.00799626  |g|= 0.0209543  3 KF 9 JK
+macro= 2  E= -74.5441152696295  delta_E= -8.86771e-05  |g|= 2.69352e-05  3 KF 10 JK
+macro= 3  E= -74.5441152696296  delta_E= -9.9476e-14  |g|= 3.48451e-06  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 4  E=-74.5441152696296  |g|= 3.48451e-06  total 11 KF 36 JK
+
+WARN: HOMO 0.27528338085104936 > LUMO -0.1360574347735709 was found in the canonicalized orbitals.
+
+converged SCF energy = -74.5441152696296
