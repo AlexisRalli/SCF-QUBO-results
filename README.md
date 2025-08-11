@@ -10,3 +10,8 @@ To re-run the analysis please run:
 pip install -r requirements.txt
 ```
 
+To unzip all the raw data please run:
+
+```
+python uncompress.py
+```
